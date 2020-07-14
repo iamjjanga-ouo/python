@@ -25,3 +25,22 @@ num = "01077779999"
 print("{0:s}\t{1:d}\t{2:s}\t{3:s}" .format("이이상", 35, num[:3] + "-" + num[3:7] + "-" + num[7:], format(30000, ',')))
 print("="*45)
 print("\t\t\t총합계\t"+ "%s" % (format(100000,',')))
+
+# .format
+print('{:10}{:10}{:10}'.format("name", "age", "address"))
+print('{:<10}{:<10}{:<10}'.format("name", "age", "address"))
+print('{:>10}{:>10}{:>10}'.format("name", "age", "address"))
+print('{:^10}{:^10}{:^10}'.format("name", "age", "address"))
+print('{:-^10}{:-^10}{:-^10}'.format("name", "age", "address"))
+
+## 화폐단위 1000단위 컴머
+print('{:,}{:,}'.format(10000,10000))
+
+# IP address 192.168.108.11
+num = "192.168.108.11"
+print(num[12:15])
+print(bin(int(num[:3])),bin(int(num[4:7])),bin(int(num[8:11])),bin(int(num[12:15])))
+print('{:b}.{:b}.{:b}.{:b}'.format(192,168,108,11))
+
+# 글자 반대
+print('{4} {5} {0} {1} {2} {3}'.format('The','famine','was','severe','in','Samaria'))
