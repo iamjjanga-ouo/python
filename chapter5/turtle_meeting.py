@@ -45,11 +45,11 @@ if __name__ == "__main__":
         elif(t3_X > 150 or t3_Y > 150):
             t3.goto(0,0)
             t3_X, t3_Y = 0,0
-        '''
+        
         if (math.sqrt(pow(t1_X - t2_X, 2) + pow(t1_Y - t2_Y,2)) <= 20 or \
            math.sqrt(pow(t1_X - t3_X,2) + pow(t1_X - t3_Y,2)) <= 20 or \
            math.sqrt(pow(t2_X - t3_X,2) + pow(t2_Y - t3_Y,2)) <= 20):
                 t1.turtlesize(3); t2.turtlesize(3); t3.turtlesize(3)
                 break
-        '''
+        
 turtle.done()
