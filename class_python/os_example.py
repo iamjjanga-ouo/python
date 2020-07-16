@@ -1,4 +1,4 @@
-import os
+import os ## 리눅스와 윈도우 출력값이 다르다.
 
 print(os.path)
 
