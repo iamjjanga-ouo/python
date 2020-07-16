@@ -9,7 +9,9 @@ learn python
     - 기본적인 거북이 : 오른쪽으로 90도씩 꺽으면서 사각형을 그림
 
 ## chapter3
-- data sizeof 로 int, float, bool, str, list, tuple, dict, set의 사이즈를 출력
+- data size를 출력
+    - (int, float, bool, str, list, tuple, dict, set)의 사이즈를 출력
+- 
 
 ## chapter4
 - ord : 문자를 ASCII code로 변환
